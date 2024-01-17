@@ -7,25 +7,16 @@ Played around with route tables and Internet Gateways to make that traffic dance
 
 To finished the project off I blocked access to my public web server using an ACL rule, and then brought it back to life. Flexing those AWS muscles and gaining a better understanding of configuring a VPC on AWS<br/>
 
-<h2>Shell Script</h2>
+<h2>Tools and Services Used</h2>
 
-<b>sudo tcpdump -#XXtttt host skyroute66.com -w captured.pcap -C 1 -G 600</b>
-- <b>(XX) hexadecimal</b> 
-- <b>(tttt) timestamp</b>
-- <b>(-w) write</b>
-- <b>(-C) Limits the size in megabytes</b>
-- <b>(-G) Limits the time in seconds</b>
-
-<h2>Tools Used</h2>
-
-- <b>tcpdump</b> 
-- <b>Shell Scripting</b>
-- <b>Visual Code Studio</b>
-- <b>Wireshark</b>
+- <b>EC2</b> 
+- <b>VPC</b> 
+- <b>SSH</b>
+- <b>ACL</b>
 
 <h2>Environments Used </h2>
 
-- <b>Ubuntu</b>
+- <b>AWS</b>
 
 <h2>Project walk-through:</h2>
 
