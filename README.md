@@ -1,7 +1,7 @@
 <h1>Configuring and securing a VPC in AWS</h1>
 
 <h2>Description</h2>
-Just wrapped up a project where I took AWS VPC configuration to the next level. Created the VPC, defined the CIDR block, and set up subnets across different zones. Launched a duo of web servers – one private, one flaunting in public, armed with a new key pairs for secure access.
+Just wrapped up this project where I took AWS VPC configuration to the next level. Created the VPC, defined the CIDR block, and set up subnets across different zones. Launched a duo of web servers – one private, one flaunting in public, armed with a new key pairs for secure access.
 
 Played around with route tables and Internet Gateways to make that traffic dance to my tune. Security-wise, I crafted a security group allowing SSH – can't compromise on that front. The real excitement kicked in when I connected to my public EC2 instance via SSH.
 
